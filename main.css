@@ -47,6 +47,7 @@ background-size: contain;
 
 .vermas {
     background-image: linear-gradient(to right, #A73737 0%, #C93232  51%, #C04E4E  100%);
+}
 form{  
     margin-top: 10%;
 }
@@ -131,6 +132,7 @@ body{
 .text{
     color: black;
     text-decoration-line: none;
+    padding-left: 5%;
 }
 .text:hover{
     color: #c93232;
@@ -140,6 +142,9 @@ body{
 }
 #footertitle{
     color: #a73737;
+    padding-left: 5%;
+    
+
 }
 #newsletterbutton1 {
     background-image: linear-gradient(to right, #a73737 0%, #c93232  51%, #c04e4e  100%);
@@ -210,9 +215,7 @@ body{
          margin-left: 0%;
      }
    
-   border-radius: 10px;
-   display: block;
- }
+   
 
  #newsletterbutton1:hover {
    background-position: right center; /* change the direction of the change here */
