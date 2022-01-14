@@ -1,0 +1,134 @@
+form{  
+    margin-top: 10%;
+}
+body{
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#newsletterbutton {
+    background-image: linear-gradient(to right, #a73737 0%, #c93232  51%, #c04e4e  100%);
+    width: 120px;
+   margin: 10px;
+   padding: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+ }
+
+ #newsletterbutton:hover {
+   background-position: right center; /* change the direction of the change here */
+   
+   text-decoration: none;
+ }
+
+    
+#formrow{
+    padding: 0% 35% 0% 35%;
+}
+#fooder{
+    padding-top: 5%;
+}
+#contact{
+    padding-left: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+.list{
+    margin-bottom: 1%;
+}
+#fooder h2{
+    margin-bottom: 10%;
+}
+input{
+    width: 100%;
+}
+#emailnewsleter{
+    width: 80%;
+}
+#newsletterbutton{
+    margin-top: 10%;
+    width: 80%;
+}
+#newsletter{
+    padding-right: 5%;
+}
+
+legend{
+    margin-top: 5%;
+    font-size: 12pt;
+}
+#term, #politic, #subscribe{
+width: 4%;
+}
+
+
+#formtitle{
+    padding: 10% 35% 0% 35%;
+}
+.formbutton{
+    display: flex;
+}
+body{
+    color: white;
+}
+.text{
+    color: black;
+    text-decoration-line: none;
+}
+.text:hover{
+    color: #c93232;
+}
+.parrafo{
+    color: #a73737;
+}
+#footertitle{
+    color: #a73737;
+}
+#newsletterbutton1 {
+    background-image: linear-gradient(to right, #a73737 0%, #c93232  51%, #c04e4e  100%);
+    width: 120px;
+   margin: 10px;
+   padding: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+ }
+
+ #newsletterbutton1:hover {
+   background-position: right center; /* change the direction of the change here */
+   
+   text-decoration: none;
+ }
+ #newsletterbutton2 {
+    background-image: linear-gradient(to right, #a73737 0%, #c93232  51%, #c04e4e  100%);
+    width: 120px;
+   margin: 10px;
+   padding: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+ }
+
+ #newsletterbutton2:hover {
+   background-position: right center; /* change the direction of the change here */
+   
+   text-decoration: none;
+ }
