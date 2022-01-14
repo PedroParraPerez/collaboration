@@ -1,12 +1,274 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Vollkorn:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light barra">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="logo" src="/img/intothefilmlogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Actualidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trailers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Trás Cámaras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
+        <div class="row d-flex justify-content-between">
+            <div class="col-xl-2">
+            </div>
+            <div class="col-xl-8 img1">
+                <h1 ahref="https://intothefilm.es/">Into The Film</h1>
+
+            </div>
+
+            <div class="col-xl-2">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xl-2">
+            </div>
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class=" col-xl-12">
+                        <h3 class="h3pregunta"><b>¿Qué encontrarás?</b>
+                            <h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 centro">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/spiderman.jpg" class="spiderman" alt="Spiderman">
+                            <div class="card-body">
+                                <h5 class="card-title">Actualidad</h5>
+                                <p class="card-text">Las últimas noticias del séptimo arte. Todo lo que quieres saber de
+                                    los films.</p>
+                                <a href="https://intothefilm.es/category/actualidad/"
+                                    class="btn btn-primary btn-grad vermas">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 centro">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/matrix.jpeg" class="matrix" alt="Matrix">
+                            <div class="card-body">
+                                <h5 class="card-title">Trailers</h5>
+                                <p class="card-text">Disfruta de los primeros adelantos de las próximas películas que
+                                    van a salir.</p>
+                                <a href="https://intothefilm.es/category/trailers/"
+                                    class="btn btn-primary btn-grad vermas">Ver
+                                    más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 centro">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/encanto.jpg" class="Encanto" alt="Encanto">
+                            <div class="card-body">
+                                <h5 class="card-title">Trás cámaras</h5>
+                                <p class="card-text">Descubre cómo se han realizado tus films favoritos y su
+                                    transformación.</p>
+                                <a href="https://intothefilm.es/category/tras-camaras/"
+                                    class="btn btn-primary btn-grad vermas">Ver más</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div class="frase">
+                        <p> "Es imposible hacer una buena película sin una cámara que sea como un ojo en el corazón de
+                            un poeta".
+                    </div>
+                    </p>
+                    <div class="name">
+                        <p>Orson Welles</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-xl-2">
+            </div>
+
+        </div>
+    <!-- FORMULARIO -->
+    <div class="row">
+        <div class="col-xl-12" id="formtitle">
+            <h3 class="heading3">¡Conoce nuevos títulos acorde a tus preferencias!</h3>
+            <p class="parrafo"><b>Rellena el siguiente formulario para conocerte mejor</b></p>
+        </div>
+        <form>
+            <div class="row" id="formrow">
+                <div class="col-xl-6">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="col-xl-6">
+                    <label for="name">Apellidos:</label><br>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+            </div>
+            <div class="row" id="formrow">
+                <div class="col-xl-6">
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="col-xl-6">
+                    <label for="date">Fecha de nacimiento:</label><br>
+                    <input type="date" name="age" id="age">
+                </div>
+            </div>
+            <div class="row" id="formrow">
+                <div class="col-xl-6">
+                    <label for="pass">Contraseña:</label><br>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class="col-xl-6">
+                    <label for="pass">Confirmar contraseña:</label><br>
+                    <input type="password" name="pass" id="pass">
+                </div>
+            </div>
+            <div class="row" id="formrow">
+                <div class="col-4-xl">
+                    <fieldset>
+                        <legend class="parrafo"><b>¡Dinos tu prioridad en cuanto a genero!</b></legend>
+                        <label for="state"><b>1º</b></label>
+                        <select id="state1" class="form-control" required placeholder="genero">
+                            <option class="genero" selected>Comedia</option>
+                            <option class="genero" selected>Terror</option>
+                            <option class="genero" selected>Fantasía</option>
+                            <option class="genero" selected>Acción</option>
+                        </select>
+                </div>
+                <div class="col-4-xl">
+                    <label for="state2"><b>2º</b></label>
+                    <select id="state2" class="form-control" required>
+                        <option class="genero" selected>Comedia</option>
+                        <option class="genero" selected>Terror</option>
+                        <option class="genero" selected>Fantasía</option>
+                        <option class="genero" selected>Acción</option>
+                    </select>
+                </div>
+                <div class="col-4-xl">
+                    <label for="state3"><b>3º</b></label>
+                    <select id="state3" class="form-control" required>
+                        <option class="genero" selected>Comedia</option>
+                        <option class="genero" selected>Terror</option>
+                        <option class="genero" selected>Fantasía</option>
+                        <option class="genero" selected>Acción</option>
+                    </select>
+                </div>
+                </fieldset>
+            </div>
+            <div class="row" id="formrow" style="margin-top: 1%;">
+                <div class="col-xl-6">
+                    <input type="checkbox" name="term" id="term" required>
+                    <label for="term"> Término de servicio</label>
+                </div>
+                <div class="col-xl-6">
+                    <input type="checkbox" name="politic" id="politic" required>
+                    <label for="politic"> Política de privacidad</label>
+                </div>
+            </div>
+            <div class="row" id="formrow">
+                <div class="col-xl-6">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe"> Suscribirse al NEWSLETTER</label>
+                </div>
+            </div>
+            <div class="row" id="formbutton">
+                <div class="col-xl-6"></div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-2">
+                            <button type="reset" class="btn-grad" id="newsletterbutton2">Cancelar</button>
+                        </div>
+                        <button type="submit" class="btn-grad" style="margin-left: 3%;"
+                            id="newsletterbutton1">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            </fieldset>
+        </form>
+        <!--FOOTER  -->
+        <div class="row" id="fooder">
+            <div class="col-xl-3">
+                <h2 id="footertitle">Into The Film</h2>
+                <p class="text">Somos una comunidad de jóvenes unidos por el cine</p>
+                <p class="text"> el séptimo arte como interlocutor de grandes historias y como el mejor espacio para
+                    conocer otras
+                    ficciones...</p>
+            </div>
+            <div class="col-xl-3">
+                <h2>Artículos recientes</h2>
+                <ul>
+                    <li class="list"><a class="text" href=""><b>Las 12 peliculas más taquilleras de la historia</b></a>
+                    </li>
+                    <li class="list"><a class="text" href=""><b>Tom Holland y Zendalla ¿Posible ruptura?</b></a></li>
+                    <li class="list"><a class="text" href=""><b>Las 5 mejores peliculas de semana santa para echarse la
+                                siesta</b></a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3" id="contact">
+                <h2>Contacto</h2>
+                <a href="https://facebook.com">
+                    <img src="https://img.icons8.com/color/48/000000/facebook.png">
+                </a><span>Facebook</span><br>
+                <a href="https://instagram.com">
+                    <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png">
+                </a><span>Instagram</span><br>
+                <a href="https://youtube.com">
+                    <img src="https://img.icons8.com/color/48/000000/youtube--v1.png">
+                </a><span>Youtube</span><br>
+                <a href="https://twitter.com">
+                    <img src="https://img.icons8.com/fluency/48/000000/twitter.png">
+                </a><span>Twitter</span>
+            </div>
+            <div class="col-xl-3" id="newsletter">
+                <h2>Newsletter</h2>
+                <label for="emailnewsleter">Suscribite a nuestra comunidad:</label>
+                <input type="email" name="emailnewsleter" placeholder="Tu dirección de correo electrónico">
+                <div class="d-grid gap-2">
+                    <button class="btn-grad" type="submit" id="newsletterbutton">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
